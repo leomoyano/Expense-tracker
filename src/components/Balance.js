@@ -9,7 +9,7 @@ export const Balance = () => {
 
     return (
         <React.Fragment>
-            <h4>Your Balance</h4>
+            <h4>Tu Balance</h4>
             <h1 className="balance">${total}</h1>
         </React.Fragment>
     )

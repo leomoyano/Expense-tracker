@@ -28,10 +28,18 @@ function deleteTransaction(id){
     })
 }
 
+function addTransaction(id){
+    dispatch({
+        type: 'ADD_TRANSACTION',
+        payload: id
+    })
+}
+
     return(
         <GlobalContext.Provider value={{
             transactions: state.transactions,
-            deleteTransaction}}>
+            deleteTransaction,
+            addTransaction}}>
             {children}
         </GlobalContext.Provider>
     )

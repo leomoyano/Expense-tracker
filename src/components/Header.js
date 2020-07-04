@@ -3,7 +3,7 @@ import React from 'react'
 export const Header = () => {
     return (
         <h2>
-            Expense Tracker
+            Rastreador de Gastos
         </h2>
     )
 }
